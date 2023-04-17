@@ -1,0 +1,34 @@
+a = 'hello world'
+a2 = 'bye world'
+print(type(a))
+print(dir(a))
+
+b = 3
+print(type(b))
+print(dir(b))
+
+c = [1, 2, 3]
+print(type(c))
+print(dir(c))
+
+d = 1.23
+print(type(d))
+print(dir(d))
+
+def e():
+    return 'hi'
+print(type(e))
+print(dir(e))
+
+f = {"name":"김태연"}
+print(type(f))
+print(dir(f))
+
+
+g = True
+print(type(g))
+print(dir(g))
+
+h = None
+print(type(h))
+print(dir(h))

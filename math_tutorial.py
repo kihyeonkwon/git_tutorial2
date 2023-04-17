@@ -1,0 +1,13 @@
+a = input("입력할 숫자를 입력해주세요 : ")
+a = int(a)
+b = input("입력할 숫자를 입력해주세요 : ")
+b = int(b)
+
+print("덧셈결과", a+b)
+print("덧셈결과의 타입은", type(a+b))
+print("뺄셈결과", a-b )
+print("뺄셈결과의 타입은", type(a-b))
+print("곱셈결과", a*b )
+print("곱셈결과의 타입은", type(a*b))
+print("나눗셈결과", a/b)
+print("나눗셈결과의 타입은", type(a/b))
