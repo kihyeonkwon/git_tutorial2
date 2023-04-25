@@ -8,6 +8,7 @@ elif a==3:
     print("중중간맞다")
 else:
     print("아니다")
+
 if a >0:
     print("아직도 맞다")
 elif a>1:

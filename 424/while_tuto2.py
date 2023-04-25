@@ -8,8 +8,9 @@ my_list = [ {"이름":"권기현", "나이":32},
     {"이름":"김태연", "나이":15}, 
     {"이름":"김주영", "나이":14}]
 
-for person in my_list:
-    if person["나이"] >= 20:
-        print(f'{person["이름"]}님', end=' ')
 
-print("안녕하세요", end=' ')
+while len(my_list) > 5:
+    my_list.pop()
+
+
+print(my_list)
